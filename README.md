@@ -10,6 +10,8 @@ log4j
 # Usage:
 ant build
 
-java server.Server <server_port>
+ant run-server
 
-java client.Client <server_port> <client_port>
+ant run-client1
+
+ant run-client2
